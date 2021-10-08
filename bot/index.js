@@ -5,6 +5,7 @@ token: process.env.token, //Discord Bot Token
 prefix: "." //Discord Bot Prefix
 })
 bot.onMessage() //Allows to execute Commands
+bot.loadCommands(`./bot/commands/`)
 
 bot.command({
 name: "ping", //Trigger name (command name)
