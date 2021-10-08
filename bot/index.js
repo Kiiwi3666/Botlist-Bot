@@ -6,6 +6,7 @@ prefix: "." //Discord Bot Prefix
 })
 bot.onMessage() //Allows to execute Commands
 bot.loadCommands(`./bot/commands/`)
+bot.variables(`./bot/configs/vars.js`)
 
 bot.command({
 name: "ping", //Trigger name (command name)
