@@ -1,4 +1,5 @@
 const aoijs = require("aoi.js")
+const Config = require("./bot/config.json")
 
 const bot = new aoijs.Bot({
 token: process.env.token, //Discord Bot Token
