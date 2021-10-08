@@ -1,12 +1,11 @@
 const aoijs = require("aoi.js")
-const Config = require("./bot/config.json")
 
 const bot = new aoijs.Bot({
 token: process.env.token, //Discord Bot Token
 prefix: "." //Discord Bot Prefix
 })
 bot.onMessage() //Allows to execute Commands
-bot.loadCommands(`./bot/commands/`)
+bot.loadCommands(`./bot/comandos/`)
 bot.variables(`./bot/configs/vars.js`)
 
 bot.command({

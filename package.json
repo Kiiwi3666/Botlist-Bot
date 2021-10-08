@@ -19,5 +19,6 @@
   "homepage": "https://github.com/Kiiwi3666/Botlist-Bot#readme",
   "dependencies": {
     "aoi.js": "^4.5.0"
+    
   }
 }
